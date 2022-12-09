@@ -1,0 +1,54 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+	<h1>오늘의 명언</h1>
+	<p><font size="12" color="red" face="맑은 고딕" 그냥 그것을 향해 <strong>조금씩</strong> 다가가기만 하면 됩니다.</font></p>
+        <a href="https://ko.wikipedia.org/wiki/%EB%8F%84%EB%84%90%EB%93%9C_%EC%BB%A4%EB%88%84%EC%8A%A4" title="전설의 프로그래머">도널드 커누스</a>
+    
+    
+    <form action="http://localhost/login.php">
+        <p>
+            <label for="id_txt">아이디 : </label>
+            <input id="id_txt" type="text" name="id" value="아이더 입력">
+        </p>
+
+        <p>암 호 : <input type="password" name="pwd" value="암호 입력"></p>
+        <p>주 소 :</p>
+        <textarea cols="50" rows="10">주소 여러줄 입력</textarea>
+    
+        <h1>색상 선택</h1>
+        <select name="color">
+            <option value="red">빨간색</option>
+            <option value="black">검정색</option>
+            <option value="blue">파란색</option>
+        </select>
+
+        <h1>색상 선택 다중</h1>
+        <select name="color2" multiple>
+            <option value="red">빨간색</option>
+            <option value="black">검정색</option>
+            <option value="blue">파란색</option>
+        </select>
+
+        <h1>라디오버튼</h1>
+        빨간색: <input type="radio" name="color" value="red" checked>
+        검정색: <input type="radio" name="color" value="black" checked>
+        파란색: <input type="radio" name="color" value="blue" checked>
+        
+
+        <h1>체크박스</h1>
+        95: <input type="checkbox" name="size" value="95" checked>
+        100: <input type="checkbox" name="size" value="100" checked>
+        100: <input type="checkbox" name="size" value="105" checked>
+         
+
+        <p><input type="submit" name="ok" value="확인"></p>    
+
+    </form>
+    </body>
+</html>
+
+
